@@ -11,7 +11,7 @@ data, address = server.recvfrom(1024)
 print("Message received:", data.decode())
 print("Client address:", address)
 
-server.sendto(b"Hello from the UDP server!", address)
+server.sendto(f"ACK: received '{data.decode()}' ({len(data)} bytes)".encode(), address)
 
 server.close()
 
