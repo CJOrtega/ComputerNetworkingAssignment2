@@ -1,3 +1,7 @@
+# Cristopher Ortega
+# CN4713: Net-Centric Computing
+# Assignment 2
+
 import socket
 
 server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

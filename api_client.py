@@ -1,3 +1,7 @@
+# Cristopher Ortega
+# CN4713: Net-Centric Computing
+# Assignment 2
+
 import requests
 
 api_url = "https://api.github.com"
